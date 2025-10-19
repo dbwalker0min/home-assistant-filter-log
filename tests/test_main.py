@@ -1,9 +1,8 @@
 """Tests for the main module."""
 
-import pytest
-from home_assistant_filter_log.main import parse_log_line, filter_logs
 import tempfile
 import os
+from home_assistant_filter_log.main import parse_log_line, filter_logs
 
 
 class TestParseLogLine:
